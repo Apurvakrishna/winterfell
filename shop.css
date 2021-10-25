@@ -1,0 +1,234 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #545454;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://image.freepik.com/free-photo/cup-coffee-with-pile-coffee-beans_1112-438.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1400;
+}
+
+.left {
+    border: 1px solid rgb(54, 39, 39);
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 39px;
+    left: 45px;
+    background-color: rgb(241, 88, 88);
+}
+
+.left img {
+    height: 40px;
+    position: fixed;
+    padding: auto 10px;
+    margin: auto 10px;
+    top: 40px;
+    left: 40px;
+}
+
+.left span {
+    color: rgb(88, 90, 80);
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    font-size: 65%;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.mid {
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: 12px auto;
+}
+
+.right {
+    display: inline;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.navbar {
+    position: relative;
+    top: 40px;
+    width: 600px;
+}
+
+.navbar li {
+    padding: 10px;
+    display: inline;
+ 
+}
+
+.navbar li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    color: rgb(117, 124, 84);
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.dec {
+    color: white;
+}
+
+#dec1 {
+    position: absolute;
+    bottom: 45%;
+    left: 1%;
+    font-size: 40px;
+    font-weight: 2;
+    font-family: 'Italianno', cursive;
+
+}
+
+#dec2 {
+    position: absolute;
+    bottom: 35%;
+    left: 1%;
+    font-size: 50px;
+}
+
+#dec3 {
+    position: absolute;
+    bottom: 25%;
+    left: 1%;
+    font-size: 50px;
+}
+
+#sym {
+    position: absolute;
+    font-size: 50px;
+    bottom: 35%;
+    left: 15%;
+    color: rgb(117, 124, 84);
+}
+
+.btn {
+    position: absolute;
+    border: 2px solid rgb(117, 124, 84);
+    bottom: 16%;
+    left: 1%;
+    color: white;
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: rgb(117, 124, 84);
+    cursor: pointer;
+}
+
+.social {
+    position: absolute;
+    right: 40%;
+    bottom: 10px;
+    height: px;
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    height: 10px;
+    width: 10px;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa:hover {
+    color: rgb(117, 124, 84);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.menu {
+    position: static;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    z-index: 2;
+    list-style-type: none;
+    margin-top: 25px;
+    
+
+}
+
+.menu ul {
+    line-height: 1;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+
+}
+
+.menu>ul>li>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    width: 2.5 rem;
+    height: 2.5 rem;
+    border: 1 px solid var(--pix-border-color);
+    border-radius: 0;
+    line-height: 1;
+    text-decoration: none;
+}
+.fa-search{
+    color: white;
+    border: 1px solid #444444;
+    border-radius: 0;
+}
+.fa-home{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444444;
+    border-radius: 0;
+}
+.fa-heart{
+    color: white;
+    border: 1px solid #444444;
+    border-radius: 0;
+}
+.fa-trash{
+    color:white;
+    border: 1px solid #444444;
+    border-radius: 0;
+}
